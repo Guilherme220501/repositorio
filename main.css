@@ -1,0 +1,74 @@
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    cursor: grabbing;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:#ddd;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{background: linear-gradient(to right,black,white,black);margin: auto;align-items: center;justify-content: center;text-align: center;}
+h1{color: white;font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-decoration: underline;white-space: nowrap;}
+h2{color: black;font-size: 20px;font-family: Arial, Helvetica, sans-serif;font-style: italic;text-decoration: none;}
+p{color: white;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: initial;text-decoration: none;}
+a{text-shadow: 9px;text-decoration: none;border-radius: 10px 10px;font-size: 12px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: oblique;}
+ul{list-style-type: none;text-align: left;text-shadow: 9px;}
+dl{padding:8px;}
+dt{padding:8px;text-shadow: 9px;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-align: left;}
+dd{padding:8px;text-shadow: 9px;font-size: 16px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: initial;text-align: left;}
+thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 9px;}
+tbody{text-align: left;font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: inherit;text-shadow: 9px;}
+tfoot{text-align: left;font-size: 20px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-style: oblique;text-shadow: 9px;}
+summary{cursor: grab;width: 200px;margin: auto;border-radius: 10px 10px;padding: 5px;text-shadow: 9px;font-size: 18px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;}
+header{align-items: center;justify-content: center;text-align: center;cursor: grabbing;margin: auto;padding: 30px;width: 300px;border-radius: 10px 10px;border: 6px solid white;}
+section{align-items: center;justify-content: center;text-align: center;cursor: grabbing;margin: auto;padding: 30px;width: 300px;border-radius: 10px 10px;border: 6px solid blue;}
+nav{align-items: center;justify-content: center;text-align: center;cursor: grabbing;margin: auto;padding: 30px;width: 300px;border-radius: 10px 10px;border: 6px solid wheat;}
+footer{align-items: center;justify-content: center;text-align: center;cursor: grabbing;margin: auto;padding: 30px;width: 300px;border-radius: 10px 10px;border: 6px solid whitesmoke;}
+.curses:hover{transition: ease s;transform:scale(1.03)}
+.header:hover{transition: ease s;transform:scale(1.04)}
+.section:hover{transition: ease s;transform:scale(1.05)}
+.footer:hover{transition: ease s;transform:scale(1.06)}
+.summary:hover{transition: ease s;transform:scale(1.07)}
+.img:hover{transition: ease s;transform:scale(1.08)}
